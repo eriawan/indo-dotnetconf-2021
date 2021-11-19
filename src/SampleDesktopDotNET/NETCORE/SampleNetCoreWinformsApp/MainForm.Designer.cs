@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnDisplayRuntimeInfo = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnDisplayRuntimeInfo
+            // 
+            this.btnDisplayRuntimeInfo.Location = new System.Drawing.Point(216, 200);
+            this.btnDisplayRuntimeInfo.Name = "btnDisplayRuntimeInfo";
+            this.btnDisplayRuntimeInfo.Size = new System.Drawing.Size(250, 23);
+            this.btnDisplayRuntimeInfo.TabIndex = 0;
+            this.btnDisplayRuntimeInfo.Text = "Display .NET runtime information";
+            this.btnDisplayRuntimeInfo.UseVisualStyleBackColor = true;
+            this.btnDisplayRuntimeInfo.Click += new System.EventHandler(this.btnDisplayRuntimeInfo_Click);
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDisplayRuntimeInfo);
+            this.Name = "MainForm";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Button btnDisplayRuntimeInfo;
     }
 }
