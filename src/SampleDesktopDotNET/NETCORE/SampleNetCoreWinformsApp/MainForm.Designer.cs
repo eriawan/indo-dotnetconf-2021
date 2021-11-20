@@ -1,4 +1,6 @@
-﻿namespace SampleNetCoreWinformsApp
+﻿using System.Windows.Forms;
+
+namespace SampleNetCoreWinformsApp
 {
     partial class MainForm
     {

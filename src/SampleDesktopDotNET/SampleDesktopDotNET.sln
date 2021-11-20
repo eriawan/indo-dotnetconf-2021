@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NETCORE", "NETCORE", "{EB5B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleNetCoreWinformsApp", "NETCORE\SampleNetCoreWinformsApp\SampleNetCoreWinformsApp.csproj", "{DD287DAD-CC1D-4C7F-B62D-71FFD3D0D70D}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSConsoleApplication", "FSHARP\FSConsoleApplication\FSConsoleApplication.fsproj", "{6E88B01F-0710-41AF-8A4A-C6CE8093826F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSTutorial1", "FSTutorial1\FSTutorial1.fsproj", "{32924340-9F23-4887-A343-CD5E3319282C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,14 @@ Global
 		{DD287DAD-CC1D-4C7F-B62D-71FFD3D0D70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD287DAD-CC1D-4C7F-B62D-71FFD3D0D70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD287DAD-CC1D-4C7F-B62D-71FFD3D0D70D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E88B01F-0710-41AF-8A4A-C6CE8093826F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E88B01F-0710-41AF-8A4A-C6CE8093826F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E88B01F-0710-41AF-8A4A-C6CE8093826F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E88B01F-0710-41AF-8A4A-C6CE8093826F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32924340-9F23-4887-A343-CD5E3319282C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32924340-9F23-4887-A343-CD5E3319282C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32924340-9F23-4887-A343-CD5E3319282C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32924340-9F23-4887-A343-CD5E3319282C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
